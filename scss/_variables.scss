@@ -1,0 +1,46 @@
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: #2B59C3;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    color: #466362;
+}
+
+// Buttons
+
+.btn {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-radius: 50px;
+}
+
+.btn-fill {
+    background-color: #F67E7D;
+    color: #ffff;
+
+    &:hover,
+        &:active,
+        &:focus,
+        &.active {
+        background:  #9F4140;
+        color: #ffff;
+        }
+}
+
+.btn-outline {
+    border-color: #F67E7D;
+    color: #F67E7D;
+
+    &:hover,
+        &:active,
+        &:focus,
+        &.active {
+        background:  #9F4140;
+        border-color: #9F4140;
+        color: #ffff;
+        }
+}

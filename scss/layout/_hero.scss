@@ -1,0 +1,26 @@
+.hero {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-color: #F7F6F3;
+
+    .hero-inner {
+        display: flex;
+        align-items: flex-start;
+
+        .hero-info {
+            text-align: left;
+            width: 500px;
+            margin-right: 50px;
+        }
+
+        .hero-image {
+            background-image: url('../../img/ipad-1.png');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+            width: 500px;
+            height: auto;
+        }
+    }
+}

@@ -1,0 +1,74 @@
+.hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+  background-color: #F7F6F3;
+}
+
+.hero .hero-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.hero .hero-inner .hero-info {
+  text-align: left;
+  width: 500px;
+  margin-right: 50px;
+}
+
+.hero .hero-inner .hero-image {
+  background-image: url("../../img/ipad-1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 500px;
+  height: auto;
+}
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  color: #2B59C3;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  color: #466362;
+}
+
+.btn {
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border-radius: 50px;
+}
+
+.btn-fill {
+  background-color: #F67E7D;
+  color: #ffff;
+}
+
+.btn-fill:hover, .btn-fill:active, .btn-fill:focus, .btn-fill.active {
+  background: #9F4140;
+  color: #ffff;
+}
+
+.btn-outline {
+  border-color: #F67E7D;
+  color: #F67E7D;
+}
+
+.btn-outline:hover, .btn-outline:active, .btn-outline:focus, .btn-outline.active {
+  background: #9F4140;
+  border-color: #9F4140;
+  color: #ffff;
+}
+/*# sourceMappingURL=style.css.map */
