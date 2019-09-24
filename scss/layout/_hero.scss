@@ -1,6 +1,7 @@
 .hero {
     display: flex;
     justify-content: center;
+    align-items: center;
     height: 100vh;
     background-color: #F7F6F3;
 
@@ -10,8 +11,19 @@
 
         .hero-info {
             text-align: left;
-            width: 500px;
-            margin-right: 50px;
+            width: 550px;
+            margin-right: 100px;
+        }
+
+        .info-head {
+            line-height: 60px;
+            margin-bottom: 30px;
+        }
+
+        .info-content {
+            line-height: 40px;
+            margin-bottom: 35px;
+            font-size: 20px;
         }
 
         .hero-image {
@@ -19,8 +31,8 @@
             background-repeat: no-repeat;
             background-position: center;
             background-size: contain;
-            width: 500px;
-            height: auto;
+            width: 550px;
+            height: 391px;
         }
     }
 }
