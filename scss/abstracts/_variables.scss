@@ -11,11 +11,8 @@ body {
     font-weight: bolder;
     font-size: 40px;
 
-    &:hover,
-    &:active,
-    &:focus,
-        &.active {
-        color: #F67E7D;
+    &:hover {
+        color: #DB324D;
         text-decoration: none;
     }
 }
@@ -31,7 +28,7 @@ h1 {
 
 .head {
     display: flex;
-    margin: 110px 0 60px 0;
+    padding: 110px 0 60px 0;
     justify-content: center;
 }
 
@@ -58,10 +55,8 @@ p, ul, li, a {
     color: #ffff;
     margin-right: 10px;
 
-    &:hover,
-    &:active,
-    &:focus {
-        background:  #9F4140;
+    &:hover {
+        background:  #DB324D;
         color: #ffff;
         }
 }
@@ -70,11 +65,68 @@ p, ul, li, a {
     border-color: #F67E7D;
     color: #F67E7D;
 
-    &:hover,
-    &:active,
-    &:focus {
-        background:  #9F4140;
-        border-color: #9F4140;
+    &:hover {
+        background:  #DB324D;
+        border-color: #DB324D;
         color: #ffff;
         }
+}
+
+.key-btn, .testimonials-btn  {
+    display: flex;
+    justify-content: center;
+    padding: 100px 0 110px 0;
+
+    .btn {
+        width: 250px;
+    }
+}
+
+// Icon
+
+i {
+    color: #466362;
+}
+
+// Testimonials
+
+.testimonials-info {
+    display: flex;
+    flex-direction: column;
+
+    .testimonials-person {
+        display: flex;
+        justify-content: center;
+    }    
+
+    .testimonials-star {
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+    }
+
+    p {
+        text-align: center;
+        padding: 0 40px 0 40px;
+    }
+
+    .test-comment {
+        font-style: italic;
+        font-weight: 100;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        height: 100px;
+    }
+
+    .test-name, .test-owner {
+        align-content: flex-end;
+    }
+
+    .test-name {
+        font-weight: bolder;
+    }
+
+    .test-owner {
+        font-weight: 100;
+    }
 }

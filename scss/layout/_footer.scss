@@ -1,0 +1,109 @@
+footer {
+    background-color: #F7F6F3;
+
+    h6 {
+        text-transform: uppercase;
+        color: #0F7173;
+        font-weight: bold;
+    }
+
+    p, li, a {
+        font-size: 12px;
+        letter-spacing: 2.5px;
+        padding: 5px 0 5px 0;
+        color: #7C7C7C;
+    }
+
+    .footer-container {
+        padding: 50px 0 0 0;
+    }
+
+    .footer-row {
+        padding: 0 0 40px 0;
+    }
+
+// Footer Nav
+
+    .footer-nav {
+
+        .footer-nav-link {
+
+            &:hover {
+                text-decoration: none;
+                letter-spacing: 2.5px;
+                color: #F67E7D;
+            }
+        }
+    }
+
+// Form
+
+    .footerform {
+
+        .footer-input {
+            height: 25px;
+            width: 225px;
+            border-radius: 0;
+            padding: 20px 0 10px 0;
+        }
+
+        input {
+            font-style: italic;
+        }
+
+        .form-icon {
+            background-color: #466362;
+            display: inline-block;
+            padding: 5px 10px 0 4px;
+            justify-self: baseline;
+            border-top-right-radius: 45%;
+            border-bottom-right-radius: 45%;
+
+            i {
+                color: #ffffff;
+            }
+        }
+    }
+
+// Socail Media
+
+    .socialmedia {
+       
+        .social-icon {
+            padding: 20px 0 10px 0;
+        }
+
+        i {
+            padding: 0 10px 0 0;
+
+            &:hover {
+                color: #F67E7D;
+            }
+        }
+    }  
+
+// Footer Bottom
+
+    .footer-bot {
+        height: 30px;
+        display: flex;
+        justify-content: flex-end;
+        align-self: flex-end;
+        background-color: #F7E7E7;
+        padding: 0 30px 0 30px;
+
+        a, p {
+            font-size: 10px;
+            padding: 5px 10px 5px 10px;
+        }
+
+        a {
+            text-decoration: none;
+        
+            &:hover {
+            color: #DB324D;
+            }
+        }
+    }
+
+}

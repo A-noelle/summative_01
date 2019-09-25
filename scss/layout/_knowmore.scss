@@ -1,0 +1,26 @@
+.more-inner {
+    padding: 0 0 100px 0;
+}
+
+.more-row {
+    display: flex;
+    justify-content: center;
+
+    .more-link {
+        padding: 20px 50px 50px 50px;
+    }
+
+    a {
+        text-transform: none;
+        height: 170px;
+        width: 225px;
+        display: flex;
+        flex-direction: column;
+        padding: 20px 45px 20px 45px;
+
+        i {
+            color: #F67E7D;
+            padding: 10px 10px 30px 10px;
+        }
+    }
+}
