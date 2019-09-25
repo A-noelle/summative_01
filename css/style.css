@@ -48,28 +48,29 @@
 }
 
 .navbar-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   font-size: 10px;
   padding: 10px 30px 5px 30px;
   height: 30px;
+  background-color: #F7F6F3;
 }
 
-.navbar-top .top-left {
+.navbar-top .top-left, .navbar-top .top-right {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: 50%;
 }
 
 .navbar-top .top-right {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
 }
 
 .navbar-top a {
-  padding: 0 0 0 10px;
   text-decoration: none;
   color: #7C7C7C;
 }
@@ -80,6 +81,7 @@
 
 .navbar-top p {
   color: #7C7C7C;
+  padding: 0 10px 0 0;
   margin: 0;
 }
 
@@ -89,7 +91,14 @@
   display: flex;
 }
 
+.navbar-top li {
+  padding: 0 0 0 20px;
+}
+
 .navbar-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -98,6 +107,10 @@
   padding: 0 30px 0 30px;
   -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.navbar-main .logo {
+  width: 20%;
 }
 
 .navbar-main ul {
@@ -110,20 +123,64 @@
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
+  width: 80%;
 }
 
 .navbar-main .navbar-link {
   text-decoration: none;
   color: #7C7C7C;
-  padding: 0 10px 0 10px;
+  margin: 0 20px 0 20px;
 }
 
 .navbar-main .navbar-link:hover, .navbar-main .navbar-link:focus, .navbar-main .navbar-link:active {
   color: #F67E7D;
 }
 
-.navbar-main .navbar-list-button {
-  margin: 0 0 0 15px;
+.navbar-main .btn {
+  margin: 0 0 0 20px;
+}
+
+.key-features .key-container {
+  width: 1200px;
+}
+
+.key-features .key-container p {
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+
+.key-features .key-container .info-left {
+  text-align: left;
+}
+
+.key-features .key-container .info-right {
+  text-align: right;
+}
+
+.key-features .key-image {
+  background-image: url("../../img/ipad-2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 400px;
+}
+
+.key-features .key-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 60px 0 110px 0;
+}
+
+.key-features .key-btn .btn {
+  width: 250px;
+}
+
+.testimonials-home {
+  background-color: #F7F6F3;
 }
 
 body {
@@ -151,6 +208,16 @@ h1 {
   letter-spacing: 2px;
 }
 
+.head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 110px 0 60px 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 p, ul, li, a {
   font-family: 'Roboto', sans-serif;
   color: #466362;
@@ -164,6 +231,8 @@ p, ul, li, a {
   border-radius: 50px;
   width: 200px;
   padding: 10px 0px 10px 0px;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.34);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.34);
 }
 
 .btn-fill {

@@ -1,0 +1,37 @@
+.key-features {
+
+    .key-container {
+        width: 1200px;
+        
+        p {
+            font-weight: 700;
+            letter-spacing: 3px;
+        }
+
+        .info-left {
+            text-align: left;
+        }
+
+        .info-right {
+            text-align: right;
+        }
+    }
+
+    .key-image {
+        background-image: url('../../img/ipad-2.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        height: 400px;
+    }
+
+    .key-btn  {
+        display: flex;
+        justify-content: center;
+        margin: 60px 0 110px 0;
+
+        .btn {
+            width: 250px;
+        }
+    }
+}

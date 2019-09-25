@@ -29,6 +29,12 @@ h1 {
     letter-spacing: 2px;
 }
 
+.head {
+    display: flex;
+    margin: 110px 0 60px 0;
+    justify-content: center;
+}
+
 p, ul, li, a {
     font-family: 'Roboto', sans-serif;
     color: #466362;
@@ -44,6 +50,7 @@ p, ul, li, a {
     border-radius: 50px;
     width: 200px;
     padding: 10px 0px 10px 0px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.340);
 }
 
 .btn-fill {

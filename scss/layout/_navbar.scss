@@ -1,21 +1,22 @@
 // Navbar Top
 
 .navbar-top {
+    display: flex;
     font-size: 10px; 
     padding: 10px 30px 5px 30px;
     height: 30px;
+    background-color: #F7F6F3;
 
-    .top-left {
+    .top-left, .top-right {
         display: flex;
+        width: 50%;
     }
 
     .top-right {
-        display: flex;
         justify-content: flex-end;
     }
 
     a {
-        padding: 0 0 0 10px;
         text-decoration: none;
         color: #7C7C7C;
         
@@ -29,34 +30,44 @@
 
     p {
         color: #7C7C7C;
+        padding: 0 10px 0 0;
         margin: 0;
     }
 
     ul {
         display: flex;
     }
+
+    li {
+        padding: 0 0 0 20px;
+    }
 }
 
 // Navbar Main
 
 .navbar-main {
-    
+    display: flex;
     align-items: center;
     background-color: #FFFFFF;
     height: 70px;
     padding: 0 30px 0 30px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 
+    .logo {
+        width: 20%;
+    }
+
     ul {
         display: flex;
         align-items: center;
         justify-content: flex-end;
+        width: 80%;
     }
 
     .navbar-link {
         text-decoration: none;
         color: #7C7C7C;
-        padding: 0 10px 0 10px;
+        margin: 0 20px 0 20px;
         
         &:hover,
         &:focus,
@@ -65,7 +76,7 @@
         }
     }
 
-    .navbar-list-button {
-        margin: 0 0 0 15px;
+    .btn {
+        margin: 0 0 0 20px;
     }
 }
