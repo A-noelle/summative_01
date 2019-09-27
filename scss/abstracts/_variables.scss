@@ -19,7 +19,7 @@ body {
 
 // Text
 
-h1 {
+h1, h2 {
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     color: #2B59C3;
@@ -32,7 +32,7 @@ h1 {
     justify-content: center;
 }
 
-p, ul, li, a {
+p, ul, li, a, h6 {
     font-family: 'Roboto', sans-serif;
     color: #466362;
     margin: 0;
@@ -70,6 +70,10 @@ p, ul, li, a {
         border-color: #DB324D;
         color: #ffff;
         }
+    
+    &:hover > i {
+        color: #ffff;
+        }    
 }
 
 .key-btn, .testimonials-btn  {
@@ -86,47 +90,4 @@ p, ul, li, a {
 
 i {
     color: #466362;
-}
-
-// Testimonials
-
-.testimonials-info {
-    display: flex;
-    flex-direction: column;
-
-    .testimonials-person {
-        display: flex;
-        justify-content: center;
-    }    
-
-    .testimonials-star {
-        display: flex;
-        justify-content: center;
-        padding: 10px;
-    }
-
-    p {
-        text-align: center;
-        padding: 0 40px 0 40px;
-    }
-
-    .test-comment {
-        font-style: italic;
-        font-weight: 100;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        height: 100px;
-    }
-
-    .test-name, .test-owner {
-        align-content: flex-end;
-    }
-
-    .test-name {
-        font-weight: bolder;
-    }
-
-    .test-owner {
-        font-weight: 100;
-    }
 }

@@ -71,6 +71,13 @@
         &:active {
             color: #F67E7D;
         }
+        &.active {
+            color: #F67E7D;
+            font-weight: bolder;
+            border-bottom: 2px solid;
+            border-color: #F67E7D;
+            padding-bottom: 5px;
+        }    
     }
 
     .btn {

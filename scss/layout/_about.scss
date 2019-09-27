@@ -1,0 +1,46 @@
+.hero-about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #F7F6F3;
+
+    .about-inner {
+        display: flex;
+        align-items: center;
+
+
+        .about-info {
+            text-align: left;
+            width: 450px;
+            margin-left: 60px;
+        }
+
+        .about-us-image {
+            background-image: url('../../img/aboutus.png');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+            width: 660px;
+            height: 400px;
+        }    
+
+        h1 {
+            line-height: 60px;
+            padding: 0 0 10px 0;
+            color: #F67E7D;
+        }
+
+        h5 {
+            color: #2B59C3;
+            padding: 0 0 10px 0;
+        }
+
+        .info-content {
+            line-height: 25px;
+            margin-bottom: 30px;
+            font-size: 12px;
+            letter-spacing: 2px;
+        }
+    }
+}

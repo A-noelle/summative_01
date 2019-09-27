@@ -3,9 +3,10 @@
     .key-container {
         width: 1200px;
         
-        p {
+        li {
             font-weight: 700;
             letter-spacing: 3px;
+            padding: 35px 0 0 0;
         }
 
         .info-left {
@@ -16,6 +17,12 @@
             text-align: right;
         }
     }
+
+    // hr {
+    //     color: #466362;
+    //     border: 1px solid;
+    //     width: 40%;
+    // }
 
     .key-image {
         background-image: url('../../img/ipad-2.png');

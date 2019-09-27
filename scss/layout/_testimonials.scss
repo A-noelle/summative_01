@@ -1,7 +1,77 @@
+// Home page
 .testimonials-home {
     background-color: #F7F6F3;
 }
+
+
+// About Us page
+.testimonials-about-us {
+    background-color:#ffffff;
+
+    h1 {
+        padding: 110px 0 10px 0; 
+    }
+
+    h6 {
+        padding: 0 0 60px 0;
+    }
+}
+
+.testimonials-home, .testimonials-about-us {
+
+    .test-sub {
+        display: flex;
+        justify-content: center;
+    }
     
-.testimonials-container {
-    width: 1200px;
+    .testimonials-container {
+        width: 1200px;
+
+        .tetimonials-row {
+            display: flex;
+            flex-flow: row wrap;
+        }
+
+        .testimonials-info {
+            display: flex;
+            flex-direction: column;
+        
+            .testimonials-person {
+                display: flex;
+                justify-content: center;
+            }    
+        
+            .testimonials-star {
+                display: flex;
+                justify-content: center;
+                padding: 10px;
+            }
+        
+            p {
+                text-align: center;
+                padding: 0 40px 0 40px;
+            }
+        
+            .test-comment {
+                font-style: italic;
+                font-weight: 100;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                height: 100px;
+            }
+        
+            .test-name, .test-owner {
+                align-content: flex-end;
+            }
+        
+            .test-name {
+                font-weight: bolder;
+            }
+        
+            .test-owner {
+                font-weight: 100;
+                font-size: 14px;
+            }
+        }
+    }
 }
